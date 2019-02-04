@@ -13,6 +13,8 @@
  
 namespace IsotopeAsc\Model\Product;
 
+use Isotope\Model\Product\Standard;
+
 
 /**
  * Standard implementation of an Isotope product.
