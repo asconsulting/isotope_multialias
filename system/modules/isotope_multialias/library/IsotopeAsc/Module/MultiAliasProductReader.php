@@ -11,9 +11,12 @@
 
  
  
-namespace Isotope\Module;
+namespace IsotopeAsc\Module;
 
+use IsotopeAsc\Model\Product\MultiAlias;
 use Haste\Http\Response\HtmlResponse;
+
+
 
 /**
  * Class ProductReader
