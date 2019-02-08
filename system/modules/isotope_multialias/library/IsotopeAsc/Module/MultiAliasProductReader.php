@@ -14,6 +14,7 @@
 namespace IsotopeAsc\Module;
 
 use IsotopeAsc\Model\Product\MultiAlias;
+use Isotope\Module\ProductReader;
 use Haste\Http\Response\HtmlResponse;
 
 
