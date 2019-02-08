@@ -40,7 +40,7 @@ class MultiAliasProductReader extends ProductReader
         global $objPage;
         global $objIsotopeListPage;
 
-        $objProduct = MultiAlias::findAvailableByIdOrAlias(\Input::getAutoItem('product'));
+        $objProduct = MultiAlias::findAvailableByIdOrAlias(\Haste\Input\Input::getAutoItem('product'));
 
         if (null === $objProduct) {
             $this->generate404();
