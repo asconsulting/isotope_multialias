@@ -26,7 +26,7 @@ $GLOBALS['FE_MOD']['isotope']['iso_productreader'] = 'IsotopeAsc\Module\MultiAli
 /**
  * Attributes
  */
-\Isotope\Model\Attribute::registerModelType('alternateAlias', 'Isotope\Model\Attribute\TextField');
+\Isotope\Model\Attribute::registerModelType('alternateAlias', 'IsotopeAsc\Model\Attribute\AlternateAlias');
 
 
 /**
