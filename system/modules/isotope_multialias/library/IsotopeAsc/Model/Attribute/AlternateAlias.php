@@ -27,9 +27,8 @@ class AlternateAlias extends Attribute
     {
         parent::saveToDCA($arrData);
 
-        $maxlength = (int) $this->maxlength ?: 255;
-
-        $arrData['fields'][$this->field_name]['eval']['tl_class'] = "clr w50";
-        $arrData['fields'][$this->field_name]['sql'] = "varchar($maxlength) NOT NULL default ''";
+        $arrData['fields'][$this->field_name]['rgxp'] 				= "alias";
+        $arrData['fields'][$this->field_name]['eval']['tl_class'] 	= "clr w50";
+        $arrData['fields'][$this->field_name]['sql'] 				= "varchar(255) NOT NULL default ''";
     }
 }
