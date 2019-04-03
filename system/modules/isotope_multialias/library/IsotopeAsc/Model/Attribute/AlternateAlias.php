@@ -29,6 +29,7 @@ class AlternateAlias extends Attribute
 
         $maxlength = (int) $this->maxlength ?: 255;
 
+        $arrData['fields'][$this->field_name]['eval']['tl_class'] = "clr w50";
         $arrData['fields'][$this->field_name]['sql'] = "varchar($maxlength) NOT NULL default ''";
     }
 }
