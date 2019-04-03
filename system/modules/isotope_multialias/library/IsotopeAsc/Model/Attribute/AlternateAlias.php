@@ -26,9 +26,8 @@ class AlternateAlias extends Attribute
     public function saveToDCA(array &$arrData)
     {
         parent::saveToDCA($arrData);
-
-        $arrData['fields'][$this->field_name]['rgxp'] 				= "alias";
-        $arrData['fields'][$this->field_name]['eval']['tl_class'] 	= "clr w50";
-        $arrData['fields'][$this->field_name]['sql'] 				= "varchar(255) NOT NULL default ''";
+        $arrData['fields'][$this->field_name]['fieldType'] = 'text';
+        $arrData['fields'][$this->field_name]['eval'] = array('tl_class'=>true, 'doNotCopy'=>true, 'tl_class'=>'clr w50', 'rgxp'=>'alias');
+		$arrData['fields'][$this->field_name]['sql'] = "varchar(255) NOT NULL default ''";
     }
 }
