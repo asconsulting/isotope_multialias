@@ -1,8 +1,8 @@
 {
     "name":"asconsulting/isotope_multialias",
-    "description":"Module to allow for multiple product aliases for Isotope eCommerce and the Contao CMS.",
+    "description":"Module to allow for multiple product aliases (per site root) for Isotope eCommerce and the Contao CMS.",
     "homepage": "https://andrewstevens.consulting",
-    "keywords":["contao", "isotope", "domain", "language", "alias"],
+    "keywords":["contao", "isotope", "domain", "language", "alias", "domain"],
     "type":"contao-module",
     "license":"LGPL-3.0-or-later",
     "authors":[
