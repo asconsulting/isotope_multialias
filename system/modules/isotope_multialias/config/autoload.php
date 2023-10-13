@@ -16,8 +16,8 @@
  */
 ClassLoader::addClasses(array
 (
-    'IsotopeAsc\Backend\Attribute\MultiAliasCallback' 	=> 'system/modules/isotope_multialias/library/IsotopeAsc/Backend/Attribute/MultiAliasCallback.php',
-	'IsotopeAsc\Model\Attribute\AlternateAlias' 		=> 'system/modules/isotope_multialias/library/IsotopeAsc/Model/Attribute/AlternateAlias.php',
-	'IsotopeAsc\Model\Product\MultiAlias' 				=> 'system/modules/isotope_multialias/library/IsotopeAsc/Model/Product/MultiAlias.php',
-	'IsotopeAsc\Module\MultiAliasProductReader' 		=> 'system/modules/isotope_multialias/library/IsotopeAsc/Module/MultiAliasProductReader.php'
+    'MultiAlias\Backend\Attribute\MultiAliasCallback' 	=> 'system/modules/isotope_multialias/library/MultiAlias/Backend/Attribute/MultiAliasCallback.php',
+	'MultiAlias\Model\Attribute\AlternateAlias' 		=> 'system/modules/isotope_multialias/library/MultiAlias/Model/Attribute/AlternateAlias.php',
+	'MultiAlias\Model\Product\MultiAlias' 				=> 'system/modules/isotope_multialias/library/MultiAlias/Model/Product/MultiAlias.php',
+	'MultiAlias\Module\MultiAliasProductReader' 		=> 'system/modules/isotope_multialias/library/MultiAlias/Module/MultiAliasProductReader.php'
 ));

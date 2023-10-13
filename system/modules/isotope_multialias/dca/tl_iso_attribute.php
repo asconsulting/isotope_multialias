@@ -20,7 +20,7 @@
 /**
  * Table tl_iso_attribute
  */
-$GLOBALS['TL_DCA']['tl_iso_attribute']['config']['onsubmit_callback'][] = array('IsotopeAsc\Backend\Attribute\MultiAliasCallback', 'updateDatabase');
+$GLOBALS['TL_DCA']['tl_iso_attribute']['config']['onsubmit_callback'][] = array('MultiAlias\Backend\Attribute\MultiAliasCallback', 'updateDatabase');
 
  
 // Palettes
@@ -39,7 +39,7 @@ $GLOBALS['TL_DCA']['tl_iso_attribute']['fields']['rootPage'] = array
 	'relation'                => array('type'=>'hasOne', 'load'=>'lazy'),
 	'save_callback' => array
 	(
-		array('IsotopeAsc\Backend\Attribute\MultiAliasCallback', 'saveRootPage'),
+		array('MultiAlias\Backend\Attribute\MultiAliasCallback', 'saveRootPage'),
 	),
 );
 

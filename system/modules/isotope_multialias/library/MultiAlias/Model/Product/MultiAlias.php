@@ -11,7 +11,7 @@
 
  
  
-namespace IsotopeAsc\Model\Product;
+namespace MultiAlias\Model\Product;
 
 use Haste\Generator\RowClass;
 use Haste\Units\Mass\Weight;

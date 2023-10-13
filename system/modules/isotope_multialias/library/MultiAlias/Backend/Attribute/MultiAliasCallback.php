@@ -11,7 +11,7 @@
 
  
  
-namespace IsotopeAsc\Backend\Attribute;
+namespace MultiAlias\Backend\Attribute;
 
 use Isotope\Model\Attribute;
 use Isotope\Model\AttributeOption;
