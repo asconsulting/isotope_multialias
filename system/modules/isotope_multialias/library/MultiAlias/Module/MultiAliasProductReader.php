@@ -3,7 +3,7 @@
 /**
  * Isotope Multi Alias
  *
- * Copyright (C) 2019 Andrew Stevens Consulting
+ * Copyright (C) 2019-2023 Andrew Stevens Consulting
  *
  * @package    asconsulting/isotope_multialias
  * @link       https://andrewstevens.consulting
